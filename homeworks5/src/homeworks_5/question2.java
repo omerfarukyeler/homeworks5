@@ -10,8 +10,8 @@ public class question2 {
 		
 		/*”InfotechAcademy1234…!’^.+” String ifadesinde,
          *   a.	kac harf
-         *    b.	kac rakam
-         *    c.	kac ozel karakter oldugunu ekrana yazdıran 
+         *   b	kac rakam
+         *   c.	kac ozel karakter oldugunu ekrana yazdıran 
          *   karakterSay() metodunu yazınız.
          * 
 		 */ 
@@ -35,7 +35,8 @@ public class question2 {
 		for ( int i =0 ;i< kontrolfarklı.length(); i++ ) { 
 			
 			if((kontrolfarklı.charAt(i)>=65 && kontrolfarklı.charAt(i)<=90) ||
-			(kontrolfarklı.charAt(i)>=97  && kontrolfarklı.charAt(i)<=122)){
+					
+			   (kontrolfarklı.charAt(i)>=97  && kontrolfarklı.charAt(i)<=122)){
 				
 				
 				sayac1++;
@@ -48,14 +49,9 @@ public class question2 {
 			
 			
 			
-			}
-			
-			
+			}			
 		    else { sayac3++;
-		    	
-		    	
-						
-						
+		    		
 					}
 		    	
 		    }

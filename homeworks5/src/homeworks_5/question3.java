@@ -31,9 +31,7 @@ public class question3 {
 
 		public static int usalma (int tabansayi1 ,int ustsayi1) {
 			
-		int sonuc =(int) Math.pow(tabansayi1, ustsayi1)	;
-		
-		return sonuc ;
+		return (int) Math.pow(tabansayi1, ustsayi1) ;
 		
 	
 		
